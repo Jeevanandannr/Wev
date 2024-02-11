@@ -5,7 +5,7 @@ const app = express()
 app.use(cors())
 
 app.post('/api/register',(req,res)=>{
-    res.json({status:'success'})
+    res.json({status:'ok'})
 })
 
 app.listen(1337,()=>{
